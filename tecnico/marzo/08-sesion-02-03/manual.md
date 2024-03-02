@@ -12,5 +12,6 @@ Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice 
 
 Bold	
 **This is bold text**
-Esto es texto en negrita.
+Esto es texto en negrita. 
+
 
