@@ -37,3 +37,8 @@ _This text is italicized_
 ### Superscript	
 <sup> </sup>	Ninguno	This is a <sup>superscript</sup>---text	Se trata de un texto de superíndice
 
+# Colors
+
+Hex 
+`#RRGGBB`
+`#0969DA`
