@@ -31,6 +31,9 @@ _This text is italicized_
 *** ***	Ninguno	***All this text is important***
 ---Todo este texto es importante
 
-Subscript	<sub> </sub>	Ninguno	This is a <sub>subscript</sub> text	Se trata de un texto de subíndice
-Superscript	<sup> </sup>	Ninguno	This is a <sup>superscript</sup> text	Se trata de un texto de superíndice
+### Subscript
+<sub> </sub>	Ninguno	This is a <sub>subscript</sub>---text	Se trata de un texto de subíndice
+
+### Superscript	
+<sup> </sup>	Ninguno	This is a <sup>superscript</sup>---text	Se trata de un texto de superíndice
 
