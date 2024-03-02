@@ -22,7 +22,7 @@ _This text is italicized_
 ### Tachado
 ~~ ~~	Ninguno	~~This was mistaken text~~	
 ---Este texto está equivocado
-
+ 
 ### Cursiva en negrita y anidada
 ** ** y _ _	Ninguno	**This text is _extremely_ important**	
 ---Este texto es extremadamente importante
