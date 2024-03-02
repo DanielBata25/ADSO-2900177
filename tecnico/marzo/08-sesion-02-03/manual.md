@@ -15,7 +15,7 @@ Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice 
 
 Puede mostrar una imagen agregando ! y ajustar el texto alternativo en [ ]. El texto alternativo es un texto corto equivalente a la información de la imagen. Luego, escribe el vínculo de la imagen entre paréntesis ().
 
-![Ejemplo](https://www.65ymas.com/uploads/s1/42/66/76/bigstock-programming-concept-banner-so-312564556.jpeg){width='15px' height='15px'}
+![Ejemplo](https://www.65ymas.com/uploads/s1/42/66/76/bigstock-programming-concept-banner-so-312564556.jpeg){width='15px'}
 
 
 
