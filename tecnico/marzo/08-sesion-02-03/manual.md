@@ -5,7 +5,7 @@ Para crear un encabezado, agrega entre uno y seis símbolos # antes del encabeza
 # daniel bata
 ## daniel bata 
 ### daniel bata
-
+ 
 
 # 2:Estilos de texto
 Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice o superíndice en los campos de comentarios y archivos .md.
