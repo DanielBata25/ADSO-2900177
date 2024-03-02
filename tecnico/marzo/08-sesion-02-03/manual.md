@@ -10,23 +10,23 @@ Para crear un encabezado, agrega entre uno y seis símbolos # antes del encabeza
 # 2:Estilos de texto
 Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice o superíndice en los campos de comentarios y archivos .md.
 
-Bold	
+### Bold	
 **This is bold text**
 Esto es texto en negrita. 
 
-Cursiva
+### Cursiva
 _This text is italicized_
 Este texto está en cursiva
 
-Tachado
+### Tachado
 ~~ ~~	Ninguno	~~This was mistaken text~~	
 Este texto está equivocado
 
-Cursiva en negrita y anidada
+### Cursiva en negrita y anidada
 ** ** y _ _	Ninguno	**This text is _extremely_ important**	
 Este texto es extremadamente importante
 
-Todo en negrita y cursiva
+### Todo en negrita y cursiva
 *** ***	Ninguno	***All this text is important***
 Todo este texto es importante
 
