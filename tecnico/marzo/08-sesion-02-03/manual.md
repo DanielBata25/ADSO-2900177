@@ -15,5 +15,5 @@ Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice 
 
 Puede mostrar una imagen agregando ! y ajustar el texto alternativo en [ ]. El texto alternativo es un texto corto equivalente a la información de la imagen. Luego, escribe el vínculo de la imagen entre paréntesis ().
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://www.bing.com/images/search?view=detailV2&ccid=P%2b2cLyQz&id=16F7C21494097817B2CD1B9D8707139AA9AF769F&thid=OIP.P-2cLyQzLbzVMvPz0kfGEAHaEU&mediaurl=https%3a%2f%2fwww.65ymas.com%2fuploads%2fs1%2f42%2f66%2f76%2fbigstock-programming-concept-banner-so-312564556.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.3fed9c2f24332dbcd532f3f3d247c610%3frik%3dn3avqZoTB4edGw%26pid%3dImgRaw%26r%3d0&exph=1750&expw=3000&q=im%c3%a1genes+de+programacion&simid=608051581760526274&FORM=IRPRST&ck=13BBDB6D7EDC7DDAC528988ABB1BA4C4&selectedIndex=21&itb=0&ajaxhist=0&ajaxserp=0)
 
