@@ -55,10 +55,18 @@ La calificación de Matemáticas se obtiene de la siguiente manera: Examen 90% P
 La calificación de Física se obtiene de la siguiente manera: Examen 80% Promedio de tareas 20% En esta materia se pidió un total de dos tareas.
 
 La calificación de Química se obtiene de la siguiente manera: Examen 85% Promedio de tareas 15% En esta materia se pidió un promedio de tres tareas.
+# EJERCICIO 2
+Un alumno desea saber cuál será su promedio general en las tres materias más difíciles que cursa y cuál será el promedio que obtendrá en cada una de ellas. Estas materias se evalúan como se muestra a continuación:
+
+La calificación de Matemáticas se obtiene de la siguiente manera: Examen 90% Promedio de tareas 10% En esta materia se pidió un total de tres tareas.
+
+La calificación de Física se obtiene de la siguiente manera: Examen 80% Promedio de tareas 20% En esta materia se pidió un total de dos tareas.
+
+La calificación de Química se obtiene de la siguiente manera: Examen 85% Promedio de tareas 15% En esta materia se pidió un promedio de tres tareas.
 ```
 INICIO
 promediogneral= 0.0
-proM= 0.0
+promM= 0.0
 promF = 0.0 
 promQ = 0.0
 examenF= 0.0
@@ -73,13 +81,10 @@ f1 = 0.0
 f2= 0.0
 q1= 0.0
 q2 = 0.0 
-q3 = 0.0
-porceEM = 0.0
 porcenTM = 0.0
 porcenTF= 0.0
-porcenEF= 0.0
 porcenTQ = 0.0 
-porcenEQ = 0.0
+
 
 
 Escribir"Ingrese el puntaje obtenido en el examen de matematicas"
@@ -109,7 +114,7 @@ porcenTF = (f1+f2)/2
 promF = (examenF*0.8)+(porcenTF*0.2)
 porcentTQ = (q1+q2+q3)/3
 promQ = (examenQ*0.85)+(porcenTQ*0.15)
-promediogeneral = (proM+promF+promQ)/3
+promediogeneral = (promM+promF+promQ)/3
 
 escribir ("El promedio de matematicas es de",proM)
 escribir ("El promedio de fisica es de",promF)
@@ -119,3 +124,17 @@ escribir ("El promedio total de las tres materias es de",promediogeneral)
 FIN
 
 ```
+
+# EJERCICIO 3
+3. Leer un real e imprimir si el número es positivo o negativo.
+````
+num = 0
+escribir "Digite el numero que desee"
+leer num
+
+Si (num<0) :
+escribir "El numero digitado es es negativo"
+Sino
+escribir "El numero digitado es positivo"
+Finsi
+````
