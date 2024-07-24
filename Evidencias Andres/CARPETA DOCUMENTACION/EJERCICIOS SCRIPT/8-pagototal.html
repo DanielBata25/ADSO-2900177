@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-pagototal</title>
+</head>
+<body>
+    
+    <script>
+
+        let Ptotal
+        let diasT
+        let valorDia
+        let sueldo
+        let salud
+        let pension
+        let Arl 
+        let descuento
+
+        diasT = 6
+        valorDia = 40.000
+        sueldo = diasT*valorDia;
+        salud = sueldo*012;
+        pension = sueldo*0.16;
+        Arl = sueldo*0.052;
+        descuento = salud+pension+Arl;
+        Ptotal = sueldo-descuento;
+
+
+       console.log("Los dias trabajados de la persona son: " + diasT + "\n");
+        console.log("El valor del dia de la persona es: " + salud  + "\n");
+        console.log("El sueldo de la persona es: " + sueldo + "\n");
+        console.log("La salud de la persona es: " + salud  + "\n");
+        console.log("La pension de la persona es: " + pension + "\n");
+        console.log("El pago total de la persona es: " + Ptotal + "\n");
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16-M.de tres numeros</title>
+</head>
+<body>
+    
+    <script>
+        let sueldo
+        let salam 
+        let salud
+        let pen
+        let arl
+        let reten
+        let susidiotras
+        let dedusible
+        let total 
+        let valorD
+        let diasT
+
+         valorD = 40000
+         diasT = 30
+         salam = 1400000
+         susidiotras = 114000
+         reten = 0.04
+       
+
+         sueldo = valorD * diasT
+         console.log("El valor del dia es de "+ "\n" + valorD)
+         console.log("Se trabajan por "+ diasT + " dias")
+         console.log("El sueldo final es de: " + sueldo + "\n")
+
+         if(sueldo <= salam * 2){
+            console.log("su subsidio de trasporte es de "+ "\n" + susidiotras)
+
+         }
+         else{ 
+            susidiotras = 0
+            console.log("su subsidio de trasporte es de "+ "\n" + susidiotras) 
+         }
+
+         salud = sueldo * 0.12
+         console.log("la salud de la persona es de " + "\n" + salud)
+         pen = sueldo * 0.16
+         console.log("la pension de la persona es de " + "\n" + pen)
+         arl = sueldo * 0.052
+         console.log("el arl de la persona es de " + "\n" + arl)
+
+         if(sueldo <= salam *4){
+            reten = 0
+            console.log("su retencion de su salario es de "+ "\n" + reten)
+
+         }
+         else{
+            console.log("su retencion de su salario es de "+ "\n" + reten )
+         }
+
+         dedusible = (salud + pen + arl)
+         console.log("el de dedusible de la persona es de "+ "\n" + dedusible)
+         total = (sueldo + susidiotras) - (reten + dedusible)
+         console.log("su sueldo total es de " + "\n" + total)
+        
+    </script>
+</body>
+</html>

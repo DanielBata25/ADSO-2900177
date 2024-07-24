@@ -1,0 +1,30 @@
+body{
+    background-image: url(img/planetas-colores.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    margin: 20px;
+   text-align: center;
+   color: red;
+}
+/*.borde{
+    border: 1px solid white;
+}
+*/
+.tabla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

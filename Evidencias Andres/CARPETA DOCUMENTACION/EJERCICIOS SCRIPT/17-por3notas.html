@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17-por3notas</title>
+</head>
+<body>
+    
+    <script>
+        let nota1
+        let nota2
+        let nota3
+        let porcentaj1
+        let porcentaj2
+        let porcentaj3
+        let sumaporcentaje
+       
+
+         nota1 = 2.0
+         nota2 = 3.5
+         nota3 = 4.5
+       
+
+         porcentaj1 = nota1 * 0.2
+         console.log("La primera nota es: " + nota1 + "\n");
+         console.log("El porcentaje de la primera nota es de: " + "\n" + porcentaj1)
+         porcentaj2 = nota2 * 0.35
+         console.log("La segunda nota es: " + nota2 + "\n");
+         console.log("El porcentaje de la segunda nota es de: " + "\n" + porcentaj2)
+         porcentaj3 = nota3 * 0.45
+         console.log("La tercera nota es: " + nota3 + "\n");
+         console.log("El porcentaje de la tercera nota es de: " + "\n" + porcentaj3)
+         sumaporcentaje = porcentaj1 + porcentaj2 + porcentaj3
+
+         if(sumaporcentaje > 4.5){
+            console.log("Es una nota SUPERIOR")
+
+         }
+         else{
+            if(sumaporcentaje <= 4.5 && sumaporcentaje > 3.5){
+                console.log("El porcentaje de las notas es BUENA")
+            }
+            else{
+                if(sumaporcentaje <= 3.5 && sumaporcentaje >= 3.0){
+                console.log("El porcentaje de las notas es MEDIA")
+            }
+            else{
+                console.log("El porcentaje de las notas es mala")
+                
+            } 
+            }
+        }  
+        
+    </script>
+</body>
+</html>

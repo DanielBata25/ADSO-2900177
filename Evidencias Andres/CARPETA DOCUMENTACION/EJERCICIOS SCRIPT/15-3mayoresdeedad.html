@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15- cual de los 3 son mayores de edad</title>
+</head>
+<body>
+    
+    <script>
+        let personaUno
+        let personaDos
+        let personaTres
+        let promedio
+
+        personaUno = 20 
+        personaDos = 19
+        personaTres = 17
+        promedio = (personaUno+personaDos+personaTres)/3
+
+        if(personaUno >= 18 ){
+            console.log("La primera persona tiene "  + personaUno + " Años")
+            console.log("La segunda persona tiene " + personaDos + " Años")
+            console.log("La tercera persona tiene " + personaTres + " Años")
+            console.log("La PRIMERA persona es mayor de edad");
+        }
+        else{
+            console.log("La PRIMERA persona es menor de edad")
+        }
+        if(personaDos >= 18){
+    
+                console.log("La SEGUNDA persona es mayor de edad");
+        }
+        else{
+            console.log("La SEGUNDA persona es menor de edad")
+        }
+        if(personaTres >=18 ){
+                console.log("La primera persona tiene"  + personaUno + " Años")
+                console.log("ELa segunda persona tiene " + personaDos + " Años")
+                console.log("La tercera persona tiene " + personaTres + " Años")
+                console.log("La TERCERA persona es mayor de edad");
+        }
+        else{
+                console.log("La TERCERA persona es menor de edad");
+            
+        }   
+        if(promedio >=18){
+              
+                console.log("El promedio total de las edades de las personas fue  " + promedio + "  ,por lo tanto se encuentran en el promedio de los mayores de edad");
+        }
+        else{
+                
+            console.log("El promedio total de las edades de las personas fue  " + promedio + "  ,por lo tanto se encuentran en el promedio de los menores de edad");
+        }
+    </script>
+</body>
+</html>

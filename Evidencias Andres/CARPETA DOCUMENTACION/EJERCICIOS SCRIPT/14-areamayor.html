@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12-M.de tres numeros</title>
+</head>
+<body>
+    
+    <script>
+        let cuadradoUno
+        let cuadradoDos
+        let cuadradoTres
+
+        cuadradoUno = 8
+        cuadradoDos = 16
+        cuadradoTres = 8
+
+        if(cuadradoUno == cuadradoDos && cuadradoUno == cuadradoTres && cuadradoTres == cuadradoDos){
+            console.log("El  area del cuadrado uno  es:" + cuadradoUno + "\n")
+            console.log("El  area del cuadrado dos es:" + cuadradoDos + "\n")
+            console.log("El  area del cuadrado tres es:" + cuadradoTres + "\n")
+            console.log("Las tres areas son iguales son iguales");
+        }
+        else{
+            if(cuadradoUno > cuadradoDos && cuadradoDos > cuadradoTres){
+                console.log("El  area del cuadrado uno  es:" + cuadradoUno + "\n")
+                console.log("El  area del cuadrado dos   es:" + cuadradoDos + "\n")
+                console.log("El area del cuadrado tres  es:" + cuadradoTres + "\n")
+                console.log("El area" + cuadradoUno + " es el mayor");
+            }
+            if(cuadradoDos > cuadradoUno && cuadradoDos > cuadradoTres){
+                console.log("El  area del cuadrado uno es:" + cuadradoUno + "\n")
+                console.log("El s area del cuadrado dos  es:" + cuadradoDos + "\n")
+                console.log("El  area del cuadrado tres es:" + cuadradoTres + "\n")
+                console.log("El area " + cuadradoDos + " es el mayor");
+            }
+            else{
+                console.log("El  area del cuadrado uno  es:" + cuadradoUno + "\n")
+                console.log("El  area del cuadrado dos es:" + cuadradoDos + "\n")
+                console.log("El area del cuadrado tres es:" + cuadradoTres + "\n")
+                console.log("El area  " + cuadradoTres + " es mayor");
+            }
+        }  
+        
+    </script>
+</body>
+</html>
